@@ -1,0 +1,529 @@
+# depslib dependency file v1.0
+1514140574 source:e:\c++_prj\lua_test\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1594868956 source:e:\c++_prj\lua_test\lua\lapi.c
+	"lprefix.h"
+	<stdarg.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lprefix.h
+
+1594868956 e:\c++_prj\lua_test\lua\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1594868956 e:\c++_prj\lua_test\lua\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1594868956 e:\c++_prj\lua_test\lua\lapi.h
+	"llimits.h"
+	"lstate.h"
+
+1594868956 e:\c++_prj\lua_test\lua\llimits.h
+	<limits.h>
+	<stddef.h>
+	"lua.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lstate.h
+	"lua.h"
+	"lobject.h"
+	"ltm.h"
+	"lzio.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lobject.h
+	<stdarg.h>
+	"llimits.h"
+	"lua.h"
+
+1594868956 e:\c++_prj\lua_test\lua\ltm.h
+	"lobject.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lzio.h
+	"lua.h"
+	"lmem.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lmem.h
+	<stddef.h>
+	"llimits.h"
+	"lua.h"
+
+1594868956 e:\c++_prj\lua_test\lua\ldebug.h
+	"lstate.h"
+
+1594868956 e:\c++_prj\lua_test\lua\ldo.h
+	"lobject.h"
+	"lstate.h"
+	"lzio.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lfunc.h
+	"lobject.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lgc.h
+	"lobject.h"
+	"lstate.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lstring.h
+	"lgc.h"
+	"lobject.h"
+	"lstate.h"
+
+1594868956 e:\c++_prj\lua_test\lua\ltable.h
+	"lobject.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lundump.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lvm.h
+	"ldo.h"
+	"lobject.h"
+	"ltm.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lcode.c
+	"lprefix.h"
+	<math.h>
+	<stdlib.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstring.h"
+	"ltable.h"
+	"lvm.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lcode.h
+	"llex.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+
+1594868956 e:\c++_prj\lua_test\lua\llex.h
+	"lobject.h"
+	"lzio.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lopcodes.h
+	"llimits.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lparser.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lctype.c
+	"lprefix.h"
+	"lctype.h"
+	<limits.h>
+
+1594868956 e:\c++_prj\lua_test\lua\lctype.h
+	"lua.h"
+	<limits.h>
+	"llimits.h"
+	<ctype.h>
+
+1594868956 source:e:\c++_prj\lua_test\lua\lauxlib.c
+	"lprefix.h"
+	<errno.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	<sys/wait.h>
+
+1596552681 e:\c++_prj\lua_test\lua\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lbaselib.c
+	"lprefix.h"
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1594868956 e:\c++_prj\lua_test\lua\lualib.h
+	"lua.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lbitlib.c
+	"lprefix.h"
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lcorolib.c
+	"lprefix.h"
+	<stdlib.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\ldblib.c
+	"lprefix.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\ldebug.c
+	"lprefix.h"
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\ldo.c
+	"lprefix.h"
+	<setjmp.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+	"lzio.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\ldump.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lundump.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lfunc.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lgc.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\linit.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\liolib.c
+	"lprefix.h"
+	<ctype.h>
+	<errno.h>
+	<locale.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<sys/types.h>
+
+1594868956 source:e:\c++_prj\lua_test\lua\llex.c
+	"lprefix.h"
+	<locale.h>
+	<string.h>
+	"lua.h"
+	"lctype.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lobject.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lzio.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lmathlib.c
+	"lprefix.h"
+	<stdlib.h>
+	<math.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lmem.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\loadlib.c
+	"lprefix.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<dlfcn.h>
+	<windows.h>
+
+1594868956 source:e:\c++_prj\lua_test\lua\lobject.c
+	"lprefix.h"
+	<locale.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lctype.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"lvm.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lopcodes.c
+	"lprefix.h"
+	<stddef.h>
+	"lopcodes.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\loslib.c
+	"lprefix.h"
+	<errno.h>
+	<locale.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<unistd.h>
+
+1594868956 source:e:\c++_prj\lua_test\lua\lparser.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lstate.c
+	"lprefix.h"
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	<time.h>
+
+1594868956 source:e:\c++_prj\lua_test\lua\lstring.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lstrlib.c
+	"lprefix.h"
+	<ctype.h>
+	<float.h>
+	<limits.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<locale.h>
+	<math.h>
+
+1594868956 source:e:\c++_prj\lua_test\lua\ltable.c
+	"lprefix.h"
+	<math.h>
+	<limits.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lvm.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\ltablib.c
+	"lprefix.h"
+	<limits.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<time.h>
+
+1594868956 source:e:\c++_prj\lua_test\lua\ltm.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lundump.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstring.h"
+	"lundump.h"
+	"lzio.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lutf8lib.c
+	"lprefix.h"
+	<assert.h>
+	<limits.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lvm.c
+	"lprefix.h"
+	<float.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1594868956 source:e:\c++_prj\lua_test\lua\lzio.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"llimits.h"
+	"lmem.h"
+	"lstate.h"
+	"lzio.h"
+
