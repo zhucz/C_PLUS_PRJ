@@ -15,6 +15,8 @@ int main()
 
     luaB_coresume(L);
 
+    luaB_corunning(L)
+
     printf("Hello LUA!\n");
     return 0;
 }
