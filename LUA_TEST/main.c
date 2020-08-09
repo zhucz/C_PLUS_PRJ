@@ -6,6 +6,10 @@
 #include "LUA/lua.h"
 int main()
 {
+
+	L = luaL_newstate(); //建立LUA运行环境
+	luaopen_base(L);
+
     printf("Hello LUA!\n");
     return 0;
 }
