@@ -7,10 +7,10 @@
 int main()
 {
 
-	L = luaL_newstate(); //建立LUA运行环境
+	L = luaL_newstate(L); //建立LUA运行环境
 	luaopen_base(L);
 	luaB_dofile(L);
-
+    luaB_assert(L);
 
     printf("Hello LUA!\n");
     return 0;
